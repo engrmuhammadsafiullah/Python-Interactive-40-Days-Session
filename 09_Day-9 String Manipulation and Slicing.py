@@ -1,4 +1,4 @@
-#phrase = "Python Programming"
+phrase = "Python Programming"
 
 # Indexing and Slicing: [start:stop:step]
 print(phrase[0])       # 'P' (First character)

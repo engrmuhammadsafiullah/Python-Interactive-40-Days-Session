@@ -1,65 +1,17 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "8fa2c1fe",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "5\n"
-     ]
-    }
-   ],
-   "source": [
-    "#Python allows you to convert data from one type to another using constructor functions.\n",
-    "#Float to Int (Truncates the decimal part, does not round):\n",
-    "print(int(5.99)) \n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 2,
-   "id": "df1734d3",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Your score is: 100\n"
-     ]
-    }
-   ],
-   "source": [
-    "#Int/Float to String (Useful for text concatenation):\n",
-    "score = 100\n",
-    "print(\"Your score is: \" + str(score)) \n"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.11.4"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# String to Integer
+num_str = "10"
+num_int = int(num_str)       # Result: 10
+
+# Integer to Float
+score = 95
+score_float = float(score)   # Result: 95.0
+
+# Number to String
+age = 21
+age_str = str(age)           # Result: "21"
+
+# Any value to Boolean
+empty_list = []
+filled_str = "Hello"
+print(bool(empty_list))      # Result: False (Empty values are false)
+print(bool(filled_str))      # Result: True  (Filled values are true)
